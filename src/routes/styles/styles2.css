@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os elementos na horizontal */
+}
+
+header {
+    width: 100%;
+    background-color: #00ccff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.secondary-header {
+    background-color: #ffb500;
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+}
+
+.tres-header {
+   
+    width: 102%;
+    background-color: #ffb500;
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+}
+
+.logo {
+    max-width: 150px; /* Ajuste o tamanho da logo conforme necessário */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos para a imagem dentro do image-wrapper */
+.image-wrapper {
+    position: relative;
+}
+
+/* Estilos para o text-box */
+.text-box {
+    color: #fff; /* Cor do texto dentro do text-box */
+    position: center;
+    top: 50%;
+    right: -50px; /* Ajuste conforme necessário */
+    background-color: #00ccff; /* Cor de fundo do text-box */
+    padding: 10px;
+    transform: translateY(5%);
+    z-index: -1; /* Define um índice de empilhamento para enviar o text-box para trás */
+}
+
+.text-box2 {
+    color: #fff; /* Cor do texto dentro do text-box */
+    position: center;
+    top: 50%;
+    right: -50px; /* Ajuste conforme necessário */
+    background-color: #00ccff; /* Cor de fundo do text-box */
+    padding: 10px;
+    transform: translateY(20%);
+    z-index: -1; /* Define um índice de empilhamento para enviar o text-box para trás */
+}
+
+.text-box3 {
+    color: #fff; /* Cor do texto dentro do text-box */
+    position: center;
+    top: 50%;
+    right: -50px; /* Ajuste conforme necessário */
+    background-color: #00ccff; /* Cor de fundo do text-box */
+    padding: 10px;
+    transform: translateY(20%);
+    z-index: -1; /* Define um índice de empilhamento para enviar o text-box para trás */
+}
+
+.image-shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adicione aqui a sombra desejada */
+  }
+
+
